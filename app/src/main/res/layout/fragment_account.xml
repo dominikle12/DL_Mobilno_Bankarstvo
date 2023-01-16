@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backglayout">
+
+        <TextView
+            android:id="@+id/accountTaypeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/accType"
+            android:textColor="@color/boja_slova"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/accountType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            android:textColor="@color/boja_slova"
+            app:layout_constraintStart_toEndOf="@+id/accountTaypeText"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/accHolderNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:text="@string/accHolder"
+            android:textColor="@color/boja_slova"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/accountTaypeText" />
+
+        <TextView
+            android:id="@+id/accHolderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="6dp"
+            android:text="TextView"
+            android:textColor="@color/boja_slova"
+            app:layout_constraintStart_toEndOf="@+id/accHolderNameText"
+            app:layout_constraintTop_toBottomOf="@+id/accountTaypeText" />
+
+        <TextView
+            android:id="@+id/IBANtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:text="@string/IBANtext"
+            android:textColor="@color/boja_slova"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/accHolderNameText" />
+
+        <TextView
+            android:id="@+id/IBAN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="6dp"
+            android:text="TextView"
+            android:textColor="@color/boja_slova"
+            app:layout_constraintStart_toEndOf="@+id/IBANtext"
+            app:layout_constraintTop_toBottomOf="@+id/accHolderNameText" />
+
+        <TextView
+            android:id="@+id/amountMoneyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:text="@string/moneyAmount"
+            android:textColor="@color/boja_slova"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/IBANtext" />
+
+        <TextView
+            android:id="@+id/amountMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="6dp"
+            android:text="TextView"
+            android:textColor="@color/boja_slova"
+            app:layout_constraintStart_toEndOf="@+id/amountMoneyText"
+            app:layout_constraintTop_toBottomOf="@+id/IBANtext" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DL_Mobilno_Bankarstvo</string>
+    <string name="mobileBanking">MOBILNO BANKARSTVO</string>
+    <string name="accType">Tip Računa: </string>
+    <string name="accHolder">Ime i Prezime: </string>
+    <string name="IBANtext">IBAN: </string>
+    <string name="moneyAmount">Stanje: </string>
+    <string name="transactionHis">POVIJEST TRANSAKCIJA</string>
+    <string name="payFrom">Odaberite račun: </string>
+    <string name="primatelj">PRIMATELJ</string>
+    <string name="primateljIBAN">IBAN</string>
+    <string name="amount">IZNOS</string>
+    <string name="descPay">OPIS PLAĆANJA</string>
+    <string name="pozNaBr">POZIV NA BROJ</string>
+    <string name="model">MODEL</string>
+    <string name="pay">PLAĆANJE</string>
+    <string name="payButton">PLATI</string>
+</resources>
